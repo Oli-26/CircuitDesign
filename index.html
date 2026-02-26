@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circuit Designer - Logic Gate Simulator</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #0c0e12;
+            overflow: hidden;
+            width: 100vw;
+            height: 100vh;
+        }
+        /* Modal fills the entire viewport */
+        .chip-designer-modal {
+            position: fixed !important;
+            top: 0; left: 0;
+            width: 100% !important;
+            height: 100% !important;
+        }
+    </style>
+</head>
+<body>
+    <!-- Scripts loaded in dependency order -->
+    <script src="js/game-stubs.js"></script>
+    <script src="js/chip-gate-shapes.js"></script>
+    <script src="js/chip-designer-core.js"></script>
+    <script src="js/chip-requirements.js"></script>
+    <script src="js/nand-challenges.js"></script>
+    <script src="js/chip-designer-blueprints.js"></script>
+    <script src="js/chip-designer-modal.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
